@@ -1,14 +1,15 @@
 import React from 'react'
-import personal from '../img/personal.jpg'
+import avatar from '../img/avatar.jpg'
 import { NavLink } from 'react-router-dom'
 
 function NavBar() {
     return (
         <div className='NavBar'>
-            <div className='profile'>
-                <img src={personal} alt="" />
-            </div>
+
             <nav className='nav'>
+                <div className='profile'>
+                    <img src={avatar} alt="" />
+                </div>
                 <ul className='nav-items'>
                     <li className='nav-item'>
                         <NavLink to="/" exact='home' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
@@ -40,13 +41,14 @@ function NavBar() {
                         </NavLink>
                     </li>
                 </ul>
+                <footer className='footer'>
+                    <p>
+                        Made by Rosen Georgiev &copy @2022
+                    </p>
+                </footer>
             </nav>
 
-            <footer className='footer'>
-                <p>
-                    Made by Rosen Georgiev &copy @2022
-                </p>
-            </footer>
+
         </div>
     )
 }
