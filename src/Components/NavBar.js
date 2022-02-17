@@ -15,8 +15,38 @@ function NavBar() {
                             Home
                         </NavLink>
                     </li>
+
+                    <li className='nav-item'>
+                        <NavLink to="/about" exact='about' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
+                            About
+                        </NavLink>
+                    </li>
+
+                    <li className='nav-item'>
+                        <NavLink to="/portfolios" exact='portfolios' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
+                            Portfolios
+                        </NavLink>
+                    </li>
+
+                    <li className='nav-item'>
+                        <NavLink to="/blogs" exact='blogs' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
+                            Blogs
+                        </NavLink>
+                    </li>
+
+                    <li className='nav-item'>
+                        <NavLink to="/contacts" exact='contacts' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
+                            Contact
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
+
+            <footer className='footer'>
+                <p>
+                    Made by Rosen Georgiev &copy @2022
+                </p>
+            </footer>
         </div>
     )
 }
