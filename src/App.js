@@ -3,6 +3,9 @@ import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import About from './Pages/About';
 import { Routes, Route } from 'react-router-dom';
+import Blogs from './Pages/Blogs';
+import Contacts from './Pages/Contacts';
+import Portfolio from './Pages/Portfolio';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
           <Routes>
             <Route path='/' exact element={<HomePage />} />
             <Route path='/about' exact element={<About />} />
+            <Route path='/portfolios' exact element={<Portfolio />} />
+            <Route path='/blogs' exact element={<Blogs />} />
+            <Route path='/contacts' exact element={<Contacts />} />
           </Routes>
         </div>
       </div>
