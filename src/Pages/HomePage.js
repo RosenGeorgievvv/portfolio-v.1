@@ -19,13 +19,13 @@ function HomePage() {
                 </p>
                 <div className='icons'>
                     <Link className='icon-holder' to="">
-                        <FontAwesomeIcon icon={faFacebook} className="icon" />
+                        <FontAwesomeIcon icon={faFacebook} className="icon fb" />
                     </Link>
                     <Link className='icon-holder' to="">
-                        <FontAwesomeIcon icon={faGithub} className="icon" />
+                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </Link>
                     <Link className='icon-holder' to="">
-                        <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                        <FontAwesomeIcon icon={faLinkedin} className="icon lkin" />
                     </Link>
                 </div>
             </header>
