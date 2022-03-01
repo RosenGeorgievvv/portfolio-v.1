@@ -14,10 +14,6 @@ function HomePage() {
                     Hi, I am
                     <span> Rosen Georgiev</span>
                 </h1>
-                <p className='h-sub-text'>
-                    Front End Developer adept at contributing to highly collaborative work environment and finding solutions.
-                    Proven experience developing consumer-focused websites using HTML, CSS and Javascript.
-                </p>
                 <div className='icons'>
                     <Link className='icon-holder' to="">
                         <FontAwesomeIcon icon={faFacebook} className="icon fb" />

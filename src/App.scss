@@ -1,6 +1,8 @@
 @import "./styles/layout.scss";
 @import "./styles/navbar.scss";
 @import "./styles/typography.scss";
+@import "./styles/title.scss";
+@import "./styles/about.scss";
 
 * {
     padding: 0;
@@ -12,4 +14,7 @@ body {
     color: #a4acc4;
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-size: 1.2rem;
+}
+span {
+    color: #037fff;
 }
