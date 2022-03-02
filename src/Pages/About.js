@@ -7,7 +7,7 @@ function About() {
         <div className='about-page'>
             <Title title={'About Me'} span={'About Me'} />
             <ImageSection />
-            <Title title={'About Me'} span={'About Me'} />
+            <Title title={'Skills'} span={'Skills'} />
         </div>
     )
 }

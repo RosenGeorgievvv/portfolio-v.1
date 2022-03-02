@@ -1,11 +1,11 @@
 import React from 'react'
-import about from "../img/about.jpg"
+import one from "../img/one.jpg"
 
 function ImageSection() {
     return (
         <div className='ImageSection'>
             <div className='img'>
-                <img src={about} alt="" />
+                <img src={one} alt="" />
             </div>
             <div className='about-info'>
                 <p className='about-text'>
