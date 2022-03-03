@@ -17,6 +17,17 @@
                 height: 0.5rem;
                 background-color: #037fff;
                 margin-left: 1rem;
+                background-color: #0381ff3f;
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 70%;
+                    background-color: #037fff;
+                    height: 100%;
+                    bottom: 0;
+                    left: 0;
+                }
             }
         }
     }
