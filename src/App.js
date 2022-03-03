@@ -1,8 +1,8 @@
 import './App.scss'
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import About from './Pages/About';
-import { Routes, Route } from 'react-router-dom';
 import Blogs from './Pages/Blogs';
 import Contacts from './Pages/Contacts';
 import Portfolio from './Pages/Portfolio';

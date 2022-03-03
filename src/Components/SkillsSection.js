@@ -10,8 +10,6 @@ function SkillsSection({ skill, progress, width }) {
                     <div className='skill-progress'>
                         <div className='progress'>
                             <div className='inner-progress' style={{ width: width }}>
-                                <SkillsSection skill={'Javascript'} progress={'70%'} width={'70%'} />
-
                             </div>
                         </div>
                     </div>
