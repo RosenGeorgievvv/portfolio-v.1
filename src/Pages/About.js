@@ -3,6 +3,7 @@ import Title from '../Components/Title'
 import ImageSection from '../Components/ImageSection'
 import SkillsSection from '../Components/SkillsSection'
 
+
 function About() {
     return (
         <div className='about-page'>
