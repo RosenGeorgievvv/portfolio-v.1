@@ -1,4 +1,3 @@
-
 import amazon from '../img/amazon.webp';
 import weatherApp from '../img/weatherApp.png';
 import newYearEve from '../img/newYearEve.jpg';
