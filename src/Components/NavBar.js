@@ -24,14 +24,8 @@ function NavBar() {
                     </li>
 
                     <li className='nav-item'>
-                        <NavLink to="/portfolios" exact='portfolios' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
-                            Portfolios
-                        </NavLink>
-                    </li>
-
-                    <li className='nav-item'>
-                        <NavLink to="/blogs" exact='blogs' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
-                            Blogs
+                        <NavLink to="/portfolio" exact='portfolio' className={({ isActive }) => (isActive ? "active-style" : 'none')} >
+                            Portfolio
                         </NavLink>
                     </li>
 
@@ -42,9 +36,7 @@ function NavBar() {
                     </li>
                 </ul>
                 <footer className='footer'>
-                    <p>
-                        Made by Rosen Georgiev &copy @2022
-                    </p>
+
                 </footer>
             </nav>
 
